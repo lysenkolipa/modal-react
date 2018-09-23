@@ -1,0 +1,19 @@
+figure {
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.img {
+    width: 68px;
+    height: 68px;
+    border-radius: 3px;
+    background-color: #c5cbd6;
+    border: solid 1px #c5cbd6;
+}
+.img:active {
+    border: 2px solid #165bfb;
+}

@@ -1,0 +1,36 @@
+.el-switch .el-switch-style {
+    height: .7em;
+    left: 0;
+    background: #dfdfdf;
+    -webkit-border-radius: 0.8em;
+    border-radius: 0.8em;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+    width: 2em;
+    cursor: pointer;
+}
+.el-switch .el-switch-style:before {
+    display: block;
+    content: '';
+    height: 1em;
+    position: absolute;
+    width: 1em;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    border-radius: 50%;
+    left: 0;
+    top: -.2em;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.el-switch > input[type="checkbox"] {
+    display: none;
+}
+.el-switch > input[type="checkbox"]:checked + .el-switch-style {
+    background-color: #165bfb;
+}
+.el-switch > input[type="checkbox"]:checked + .el-switch-style:before {
+    left: 50%;
+}

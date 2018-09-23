@@ -1,0 +1,20 @@
+.main {
+    padding: 20px 20px 0 20px;
+    font-family: 'SFProText', sans-serif;
+}
+
+.radio-container {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top:20px;
+}
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top:10px;
+}
+.color-container {
+    text-align: left;
+    margin-bottom: 24px;
+}

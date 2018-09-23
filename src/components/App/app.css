@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'SFProText';
+    src: local('SFProText'), url(../../fonts/SF-Pro-Text-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'SFProDisplay';
+    src: local('SFProText'), url(../../fonts/SF-Pro-Display-Regular.woff) format('woff');
+}
+.app-section {
+    display:flex;
+    justify-content: space-around;
+    font-family: 'SFProText', sans-serif;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #212736;
+}

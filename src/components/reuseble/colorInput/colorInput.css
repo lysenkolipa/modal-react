@@ -1,0 +1,19 @@
+.colorInput {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: grey;
+    border: solid 1px #d9dce2;
+    margin-right: 5px;
+}
+
+.colorInput-img {
+
+    border-bottom: 2px solid #FFCC00;
+}
+
+.colorInput-img:before {
+    content:url("../../../images/ink.png");
+    top:50%;
+}

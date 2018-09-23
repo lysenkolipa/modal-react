@@ -1,0 +1,42 @@
+button {
+    width:108px;
+    height: 36px;
+    border-radius: 4px;
+    font-family: 'SFProText', sans-serif;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #212736;
+
+}
+
+.btn-group > button:nth-child(even) {
+    border-radius: unset;
+}
+
+.btn-group > button:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.btn-group > button:last-child {
+    border-radius:  0 4px 4px 0;
+}
+
+.btn-close {
+    position: absolute;
+    top:0;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+    border: unset;
+    background-color: transparent;
+}
+
+.btn-upload:before {
+    content:url("../../../images/upload.png");
+    margin-right: 5px;
+}
+
+.btn-gallery:before {
+    content:url("../../../images/gallery.png");
+    margin-right: 5px;
+}

@@ -1,0 +1,18 @@
+.modal-header {
+    padding: 20px;
+    height: 88px;
+    background-color: #f7f8fa;
+    box-shadow: 0 0 6px 0 rgba(33, 39, 54, 0.16),
+                0 0 3px 0 rgba(33, 39, 54, 0.08);
+}
+.modal-header__text,
+.modal-header__tabs {
+    position: relative;
+    text-align: left;
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #212736;
+    margin-bottom: 8px;
+}
+

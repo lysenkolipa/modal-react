@@ -1,0 +1,118 @@
+.radio-group {
+    display:flex;
+    /*justify-content:flex-start;*/
+}
+.container {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    user-select: none;
+}
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    margin:20px;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+    top: -16px;
+    right: -16px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+
+
+/*.radio-caption{*/
+    /*margin-left: 20px;*/
+/*}*/
+/*.radio-btn:first-child {*/
+    /*margin-right: 15px;*/
+/*}*/
+
+/*.radio-btn {*/
+    /*display: none;*/
+/*}*/
+
+/*.radio-btn + .radio-style{*/
+    /*position: relative;*/
+    /*display: inline-block;*/
+    /*width: 1.4em;*/
+    /*height: 1.4em;*/
+    /*vertical-align: middle;*/
+    /*cursor: pointer;*/
+/*}*/
+/*.radio-btn > input[type="radio"] + .radio-style:hover:before {border-color: #20a0ff;}*/
+/*.radio-btn > input[type="radio"] + .radio-style:before{*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left:0;*/
+    /*display: inline-block;*/
+    /*width: 16px;*/
+    /*height: 16px;*/
+    /*content: '';*/
+    /*border: 1px solid #C0CCDA;*/
+/*}*/
+/*.radio-btn> input[type="radio"] + .radio-style:after{*/
+    /*position: absolute;*/
+    /*display: none;*/
+    /*content: '';*/
+/*}*/
+/*.radio > input[type="radio"]:checked + .radio-style:after{*/
+    /*display: block;*/
+/*}*/
+/*.radio > input[type="radio"] + .radio-style:before {*/
+    /*border-radius: 50%;*/
+/*}*/
+/*.radio > input[type="radio"] + .radio-style:after {*/
+    /*top: 0.35em;*/
+    /*left: 0.35em;*/
+    /*width: 6px;*/
+    /*height: 6px;*/
+    /*border-radius: 50%;*/
+    /*background: #fff;*/
+/*}*/
+/*.radio > input[type="radio"]:checked + .radio-style:before {*/
+    /*border: 1px solid #20a0ff;*/
+    /*background-color: #20a0ff;*/
+/*}*/
+

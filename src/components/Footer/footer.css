@@ -1,0 +1,20 @@
+.footer {
+    box-sizing: border-box;
+    width: 368px;
+    height: 40px;
+    background-color: #f7f8fa;
+    box-shadow: 0 0 6px 0 rgba(33, 39, 54, 0.16), 0 0 3px 0 rgba(33, 39, 54, 0.08);
+    font-family: 'SFProText', sans-serif;
+    font-size: 14px;
+}
+.footer-text {
+    font-size: 14px;
+    line-height: 2.43;
+    letter-spacing: normal;
+    color: #212736;
+}
+
+.footer-text:before {
+    content:url('../../images/gallery.png');
+    margin-right: 5px;
+}

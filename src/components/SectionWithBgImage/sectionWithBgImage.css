@@ -1,0 +1,9 @@
+.sectionWithBgImage {
+    height: 100px;
+    background-color: rgba(33, 39, 54, 0.56);
+    margin: 10px 0;
+    border-radius: 4px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
